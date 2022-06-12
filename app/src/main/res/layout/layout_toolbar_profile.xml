@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="240dp"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/img_profile"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tuan01"
+            app:civ_border_color="@android:color/white"
+            app:civ_border_width="2dp" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/img_plus"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="5dp"
+            android:layout_alignBottom="@id/img_profile"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_plus"
+            app:civ_shadow="true"
+            app:civ_shadow_radius="1" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="**********"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/acc_txt_hoten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/acc_txt_white"
+        android:fontFamily="serif"
+        android:text="@string/profile_title"
+        android:textColor="#FF5722"
+        android:textSize="25dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/profile_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal"
+        android:paddingLeft="@dimen/dimen_20dp"
+        android:paddingRight="@dimen/dimen_20dp"
+        android:text="===)()(==="
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+</LinearLayout>

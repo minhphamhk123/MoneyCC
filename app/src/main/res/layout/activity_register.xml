@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/update_background">
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="#51000000"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:padding="30dp"
+            android:text="Đăng Ký"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edthotendangky"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/inputeditor"
+                android:drawableLeft="@drawable/author"
+                android:fontFamily="serif"
+                android:hint=" Họ và Tên"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/edtuserdangky"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/inputeditor"
+                android:drawableLeft="@drawable/username"
+                android:fontFamily="serif"
+                android:hint="Tài Khoản"
+                android:inputType="textPersonName"
+                android:padding="8dp"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/edtpassdangky"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/inputeditor"
+                android:drawableLeft="@drawable/sharp_lock_white_18dp"
+                android:fontFamily="serif"
+                android:hint="Mật Khẩu"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1"
+        android:background="#51000000"
+        android:gravity="center"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnDangky"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/acc_txt_white"
+            android:drawableLeft="@drawable/register_dangky"
+            android:text="Đăng Ký"
+            android:fontFamily="serif"
+            android:textColor="#009688"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnhuydangky"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/acc_txt_white"
+            android:drawableLeft="@drawable/register_huybo"
+            android:fontFamily="serif"
+            android:text="Hủy"
+            android:textColor="#F44336"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

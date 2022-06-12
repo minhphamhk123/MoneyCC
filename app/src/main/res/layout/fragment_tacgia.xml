@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1AFFC107">
+
+    <LinearLayout
+        android:id="@+id/line11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_tacgia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="serif"
+            android:text="Sinh Viên Thực Hiện:"
+            android:textColor="#F44336"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgtacgia"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/txt_tacgia"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/tuan01" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="serif"
+            android:text="Họ tên: Phạm Nhật Minh"
+            android:textColor="#673AB7"
+            android:textSize="11dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/line12"
+        android:layout_toRightOf="@+id/line11"
+        android:layout_marginLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_gvhd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:text="Giảng Viên Hướng Dẫn:"
+        android:textColor="#F44336"/>
+
+    <ImageView
+        android:id="@+id/imgthaythu"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/txt_gvhd"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/tuan01"/>
+
+        <TextView
+            android:layout_below="@id/imgthaythu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Họ tên: YourName"
+            android:textSize="11dp"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="#673AB7"/>
+    </LinearLayout>
+
+</RelativeLayout>

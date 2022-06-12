@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome">
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="190dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt_pre_cmb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="Chào Mừng Bạn"
+                android:textColor="#FFFFFF"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_pre_username"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/txt_pre_cmb"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:text="username"
+                android:textColor="#FFC107"
+                android:textSize="24sp"
+                android:textStyle="italic|bold" />
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/image_username"
+            android:scaleType="centerInside"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/txt_pre_username"
+            android:layout_margin="10dp"
+            android:src="@drawable/tuan01"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1"
+        android:gravity="center"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btn_pre_next"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="#B9F44336"
+            android:fontFamily="serif"
+            android:text="Tiếp Tục"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="italic|bold" />
+
+        <Button
+            android:id="@+id/btn_pre_back"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="#C3009688"
+            android:fontFamily="serif"
+            android:text="Quay Lại"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="italic|bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="0dp"
+    android:background="#1AFF9800">
+
+    <TextView
+        android:id="@+id/txtxemThongTin_kt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Thông Tin Khoản Chi"
+        android:textSize="23dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor="#CCFF5722"/>
+
+    <TextView
+        android:id="@+id/txttenloaithuct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtxemThongTin_kt"
+        android:text="  Tên Loại Chi: "
+        android:textSize="16dp"
+        android:fontFamily="serif"/>
+
+    <TextView
+        android:id="@+id/txttenloaichixem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtxemThongTin_kt"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/txttenloaithuct"
+        android:text="Tên"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/txttenkhoangthu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txttenloaithuct"
+        android:layout_marginTop="8dp"
+        android:text="  Tên Khoảng Chi:"
+        android:textSize="16dp"
+        android:fontFamily="serif"/>
+
+    <TextView
+        android:id="@+id/edttenkhoangchi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txttenloaithuct"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="6dp"
+        android:layout_toRightOf="@id/txttenkhoangthu"
+        android:text="tên"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/txtsotien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txttenkhoangthu"
+        android:layout_marginTop="10dp"
+        android:text="  Số Tiền: "
+        android:textSize="16dp"
+        android:fontFamily="serif"
+        android:textColor="#FF5722"/>
+
+    <TextView
+        android:id="@+id/edtsoTienchi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txttenkhoangthu"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/txtsotien"
+        android:text="tên"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/edtdonvichi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txttenkhoangthu"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="11dp"
+        android:layout_toRightOf="@id/edtsoTienchi"
+        android:text="tên"
+        android:textSize="16dp"
+        android:textColor="#FF5722"/>
+
+    <TextView
+        android:id="@+id/txtmota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtsotien"
+        android:layout_marginTop="10dp"
+        android:text="  Mô Tả:  "
+        android:textSize="16dp"
+        android:fontFamily="serif"/>
+
+    <TextView
+        android:id="@+id/edtmotachi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtsoTienchi"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/txtmota"
+        android:text="tên"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/txtngaythang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtmota"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:text="  Ngày Tháng: "
+        android:textSize="16dp"
+        android:fontFamily="serif"
+        android:textColor="#FF5722"/>
+
+    <TextView
+        android:id="@+id/edtngaythang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtmotachi"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/txtngaythang"
+        android:text="tên"
+        android:textSize="16dp"
+        android:textColor="#FF5722"/>
+</RelativeLayout>

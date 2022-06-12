@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#21B5A7">
+
+    <ImageView
+        android:id="@+id/imgsplash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/spash_background_new" />
+
+    <com.daimajia.numberprogressbar.NumberProgressBar
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgsplash"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:scrollbarSize="30dp"
+        app:progress_current="0"
+        app:progress_text_color="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/txtten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="serif"
+        android:text="THIẾT KẾ"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txttacgia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/acc_txt_white"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Team Genesis II"
+        android:textColor="#009688"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+</RelativeLayout>

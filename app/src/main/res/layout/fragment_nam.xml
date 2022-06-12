@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_height="match_parent"
+              android:layout_width="match_parent">
+
+    <TextView
+            android:layout_marginTop="5dp"
+            android:text="Thống Kê Theo Năm"
+            android:textSize="25dp"
+            android:id="@+id/textchart"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:textColor="#2196F3"/>
+
+    <Spinner android:layout_width="match_parent"
+             android:id="@+id/spinnerchonnam"
+             android:padding="5dp"
+             android:layout_marginTop="2dp"
+             android:layout_height="wrap_content">
+    </Spinner>
+
+    <LinearLayout
+            android:id="@+id/line01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txttongchinam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textchart"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Tổng Chi"
+            android:textColor="#E91E63"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+
+        <TextView
+            android:id="@+id/txttongthunam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textchart"
+            android:layout_toRightOf="@id/txttongchi"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Tổng Thu"
+            android:textColor="#FF9800"
+            android:textStyle="bold"
+            android:fontFamily="serif"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txt_sodunam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số dư Năm: "
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="#009688"/>
+
+    </LinearLayout>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:layout_height="match_parent"
+        android:id="@+id/piechart2"
+        android:layout_width="match_parent">
+
+    </com.github.mikephil.charting.charts.PieChart>
+
+</LinearLayout>

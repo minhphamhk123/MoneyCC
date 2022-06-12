@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/activity_account.xml" value="0.16666666666666666" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/activity_cai_dat_hinh.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/activity_demoactivity.xml" value="0.14666666666666667" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/activity_preview.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/activity_updatepass.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/content_account.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/custom_diaglog_add_lc.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/custom_diaglog_add_lt.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/custom_dialog_add_kc.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/custom_dialog_add_kt.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/custom_dialog_sua_kc.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/custom_dialog_sua_kt.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/custom_dialog_sua_lc.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/custom_dialog_xemchitiet_kc.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/custom_dialog_xemchitiet_kt.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/dong_caidat.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/dong_khoangchi.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/dong_khoangthu.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/dong_loaichi.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/dong_loaithu.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/dong_spinner_kc.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/dong_spinner_kt.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/dong_spinner_thang.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/fragment_caidat.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/fragment_chi.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/fragment_gioithieu.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/fragment_homnay.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/fragment_khoangchi.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/fragment_khoangthu.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/fragment_lienhe.xml" value="0.22" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/fragment_loaichi.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/fragment_loaithu.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/fragment_nam.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/fragment_tacgia.xml" value="0.4466666666666667" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/fragment_thang.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/fragment_thongke.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/fragment_thu.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/layout_toolbar_profile.xml" value="0.25" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/navigation_layout.xml" value="0.1" />
+        <entry key="..\:/Thử nghiệm/ASMFINAL/Assignmentone/app/src/main/res/layout/view.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.4466666666666667" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

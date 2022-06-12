@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/dongcardviewkhoangthu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="8dp"
+        card_view:cardElevation="8dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#4DFFC107">
+
+            <ImageView
+                android:id="@+id/imgbagmoneylc"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/whatmoney" />
+
+            <TextView
+                android:id="@+id/txtkhoangchi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/imgbagmoneylc"
+                android:text="Tên Chi"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="18dp" />
+
+
+            <LinearLayout
+
+                android:id="@+id/line5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtkhoangchi"
+                android:layout_toRightOf="@id/imgbagmoneylc">
+
+                <TextView
+                    android:id="@+id/txttienchi"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txtkhoangthu"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_toRightOf="@id/imgbagmoney"
+                    android:layout_weight="1"
+                    android:text="Tiền"
+                    android:textSize="18dp"
+                    android:fontFamily="serif"/>
+
+                <TextView
+                    android:id="@+id/txtdonvitienchi"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    android:text="donvi"
+                    android:textColor="#FF5722"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:fontFamily="serif"/>
+
+
+                <ImageView
+                    android:id="@+id/edtsuakhoangchi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtkhoangthu"
+                    android:layout_toRightOf="@id/txttienthu"
+                    android:src="@drawable/edt" />
+
+                <ImageView
+                    android:id="@+id/edtxoakhoangchi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtkhoangthu"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_toEndOf="@+id/edtsuakhoangthu"
+                    android:layout_toRightOf="@id/edtsuakhoangthu"
+                    android:src="@drawable/delete" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/txtngaychi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line5"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/imgbagmoneylc"
+                android:text="Ngày chi "
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:textSize="18dp" />
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

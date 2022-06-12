@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Chức Năng">
+        <menu>
+            <item android:title="Khoản Thu"
+                android:icon="@drawable/thumoney"
+                android:id="@+id/khoangthu"></item>
+
+            <item android:title="Khoản Chi"
+                android:icon="@drawable/takemoney"
+                android:id="@+id/khoangchi"></item>
+
+            <item android:title="Thống Kê"
+                android:id="@+id/thongke"
+                android:icon="@drawable/thongkemoney"></item>
+
+            <item android:title="Cài Đặt"
+                android:id="@+id/caidat"
+                android:icon="@drawable/settingacc"></item>
+        </menu>
+    </item>
+    <item android:title="Tùy Chọn Thêm">
+        <menu>
+            <item android:title="Giới Thiệu"
+                android:icon="@drawable/introduce_acc"
+                android:id="@+id/gioithieu"></item>
+
+            <item android:title="Cá Nhân"
+                android:icon="@drawable/profile_acc"
+                android:id="@+id/canhan"></item>
+
+            <item android:title="Thoát"
+                android:icon="@drawable/exit02"
+                android:id="@+id/thoat"></item>
+
+        </menu>
+    </item>
+</menu>

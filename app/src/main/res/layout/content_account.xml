@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity.AccountActivity"
+    tools:showIn="@layout/activity_account">
+
+    <LinearLayout
+        android:id="@+id/line01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:weightSum="2"
+        tools:ignore="MissingConstraints,Orientation">
+
+        <Button
+            android:id="@+id/btn_acc_back"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/acc_btn_bluegreen"
+            android:fontFamily="serif"
+            android:text="Quay Lại"
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_acc_next"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/acc_btn_red"
+            android:fontFamily="serif"
+            android:text="Tiếp Tục"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="italic|bold" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

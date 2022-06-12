@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_background">
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="#662196F3"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Cập Nhật Mật Khẩu"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/edtuserforgot_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inputeditor"
+            android:drawableLeft="@drawable/username"
+            android:hint="Tài Khoản"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:textColor="#ffff"
+            android:textColorHint="#ffff"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/edtoldpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/inputeditor"
+            android:drawableLeft="@drawable/sharp_lock_white_18dp"
+            android:hint="Mật Khẩu"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textColor="#ffff"
+            android:textColorHint="#ffff"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/edtnewpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/inputeditor"
+            android:drawableLeft="@drawable/sharp_lock_white_18dp_newpass"
+            android:hint="Mật Khẩu Mới"
+            android:inputType="textPassword"
+            android:padding="8dp"
+            android:textColor="#ffff"
+            android:textColorHint="#ffff"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1"
+        android:background="#00000000"
+        android:gravity="center"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnCapnhat_pass"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:fontFamily="serif"
+            android:background="@drawable/login_btn_bluelight"
+            android:text="Cập Nhật"
+            android:textColor="#ffff"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

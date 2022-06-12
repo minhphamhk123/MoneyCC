@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtthemkhoangthu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Sửa Khoản Chi"
+                android:textSize="22dp"
+                android:textStyle="bold"
+                android:fontFamily="serif"/>
+
+            <ImageView
+
+                android:id="@+id/imgspinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtthemkhoangthu"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/iconwallet" />
+
+            <Spinner
+                android:id="@+id/spinnersuakc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtthemkhoangthu"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/imgspinner"></Spinner>
+
+            <ImageView
+                android:id="@+id/iconthemten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgspinner"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/edtthem" />
+
+            <EditText
+                android:background="@drawable/input"
+                android:id="@+id/edtthemtensuakc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgspinner"
+                android:layout_marginLeft="8dp"
+                android:padding="7dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@id/iconthemten"
+                android:hint="Nhập Tên" />
+
+            <ImageView
+                android:id="@+id/iconedt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iconthemten"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/iconedty" />
+
+            <LinearLayout
+                android:id="@+id/line1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iconthemten"
+                android:layout_toRightOf="@id/iconedt"
+                android:orientation="horizontal">
+
+                <EditText
+                        android:layout_marginTop="30dp"
+                        android:id="@+id/edtnhaptiensuakc"
+                        android:layout_marginLeft="8dp"
+                        android:hint="Nhập Số Tiền"
+                        android:inputType="numberDecimal"
+                        android:background="@drawable/input"
+                        android:layout_width="130dp"
+                        android:padding="7dp"
+                        android:layout_height="wrap_content" />
+
+                <Spinner
+                    android:id="@+id/spinnerDonvisuakc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36dp"
+                    android:layout_below="@id/spinnerthu"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_toRightOf="@id/edtnhaptienthu"
+                    android:layout_weight="1"
+                    android:gravity="center"></Spinner>
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/iconmota"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iconedt"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/iconmieuta" />
+
+            <EditText
+                android:id="@+id/edtthemmotakc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/line1"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="30dp"
+                android:layout_toRightOf="@id/imgspinner"
+                android:background="@drawable/input"
+                android:hint="Nhập Mô Tả"
+                android:padding="7dp"
+                android:singleLine="true" />
+
+            <ImageView
+                android:id="@+id/iconngay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iconmota"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/icondate" />
+
+            <EditText
+                android:id="@+id/edtngaysuakc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/edtthemmotakc"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="26dp"
+                android:layout_toRightOf="@id/imgspinner"
+                android:background="@drawable/input"
+                android:hint="Nhập Ngày"
+                android:padding="7dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/btnhuysuakc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/acc_txt_white"
+                android:drawableLeft="@drawable/register_huybo"
+                android:text="Hủy Bỏ"
+                android:fontFamily="serif"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnthemsuakc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/register_dangky"
+                android:background="@drawable/acc_txt_white"
+                android:text="Hoàn Tất"
+                android:fontFamily="serif"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcome"
+    tools:context=".Activity.AccountActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/line01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FFFFFF">
+
+        <TextView
+            android:id="@+id/txt_acc_cmb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="**********"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <include layout="@layout/layout_toolbar_profile"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_account" />
+
+</android.support.design.widget.CoordinatorLayout>

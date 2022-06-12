@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="294dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/imgfacebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/facebook" />
+
+        <TextView
+            android:id="@+id/txtfb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="12dp"
+            android:layout_toRightOf="@id/imgfacebook"
+            android:text="Liên hệ với tôi trên Facebook"
+            android:fontFamily="serif"
+            android:textColor="#3F51B5"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/imgtwiiter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgfacebook"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/twitter" />
+
+        <TextView
+            android:id="@+id/txttwitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtfb"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@id/imgfacebook"
+            android:text="Liên hệ với tôi trên Twittter"
+            android:fontFamily="serif"
+            android:textColor="#03A9F4"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/imggoogleplus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgtwiiter"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/googleplus" />
+
+        <TextView
+            android:id="@+id/txtgoogleplus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txttwitter"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@id/imgfacebook"
+            android:text="Email: nhagiaotre@gmail.com"
+            android:fontFamily="serif"
+            android:textColor="#FF5722"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/imgzalo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imggoogleplus"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/zalo" />
+
+        <TextView
+            android:id="@+id/txtzalo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtgoogleplus"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@id/imgfacebook"
+            android:text="Zalo: 0987654321"
+            android:fontFamily="serif"
+            android:textColor="#2266CC"
+            android:textSize="18dp" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="0.2dp"
+            android:layout_below="@id/txtzalo"
+            android:layout_marginTop="20dp"
+            android:background="#FF9800" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

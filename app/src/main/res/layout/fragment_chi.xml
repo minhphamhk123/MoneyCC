@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:id="@+id/tablayoutchi"
+        android:background="#99FF5722"
+        android:layout_height="?attr/actionBarSize">
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@id/tablayoutchi"
+        android:id="@+id/view_pagerchi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v4.view.ViewPager>
+
+</RelativeLayout>

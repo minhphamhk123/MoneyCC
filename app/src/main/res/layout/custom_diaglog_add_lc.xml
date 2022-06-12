@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lc_chi_tien"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_margin="8dp"
+        android:id="@+id/txtthemmucchi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Thêm Loại Chi"
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:ems="10"
+        android:id="@+id/edtloaichi"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/input"
+        android:hint="Nhập Loại Chi" />
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="180dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnhuyloaichi"
+            android:background="@drawable/acc_txt_white"
+            android:drawableLeft="@drawable/register_huybo"
+            android:text="Hủy"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:fontFamily="serif"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/btnthemloaichi"
+            android:drawableLeft="@drawable/register_dangky"
+            android:background="@drawable/acc_txt_white"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="Thêm"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:fontFamily="serif"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</LinearLayout>

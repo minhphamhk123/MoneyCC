@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+>
+    <TextView
+            android:layout_marginTop="10dp"
+            android:text="Thống Kê Hôm Nay"
+            android:textSize="25dp"
+            android:fontFamily="serif"
+            android:id="@+id/textchart"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#00BCD4"/>
+
+    <LinearLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/libe"
+            android:gravity="center"
+            android:layout_below="@id/textchart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:layout_below="@id/textchart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txttongchi"
+                android:text="Tổng Chi"
+                android:textColor="#8BC34A"
+                android:fontFamily="serif"/>
+
+        <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:layout_toRightOf="@id/txttongchi"
+                android:layout_below="@id/textchart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txttongthu"
+                android:text="Tổng Thu"
+                android:textColor="#FF9800"
+                android:fontFamily="serif"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:id="@+id/line01"
+        android:layout_below="@id/libe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txtsodu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Số dư: "
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="#FF5722"/>
+
+    </LinearLayout>
+
+
+    <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/piechart"
+            android:layout_below="@+id/line01"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    </com.github.mikephil.charting.charts.PieChart>
+
+</RelativeLayout>
