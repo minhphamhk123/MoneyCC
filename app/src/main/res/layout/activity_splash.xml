@@ -45,7 +45,7 @@
         android:background="@drawable/acc_txt_white"
         android:fontFamily="serif"
         android:gravity="center"
-        android:text="Team Genesis II"
+        android:text="Team Genesis I"
         android:textColor="#009688"
         android:textSize="22dp"
         android:textStyle="bold" />
