@@ -27,7 +27,7 @@ public class LoginActivity extends AppCompatActivity {
     //
     public static final String KEY_USER_FROM_REGISTER = "KEY_USER_FROM_REGISTER";
     public static final String KEY_PASSWORD_FROM_REGISTER = "KEY_PASSWORD_FROM_REGISTER";
-    public static final String KEY_HOTEN_FROM_REGISTER = "VU_VAN_TUAN";
+    public static final String KEY_HOTEN_FROM_REGISTER = "MINH_PHAM";
     //
     public static final String KEY_USER_FROM_UPDATEPASS = "KEY_USER_FROM_UPDATEPASS";
     public static final String KEY_PASSWORD_FROM_UPDATEPASS = "KEY_PASSWORD_FROM_UPDATEPASS";
@@ -37,7 +37,7 @@ public class LoginActivity extends AppCompatActivity {
     Button btndangnhap, btndangky;
     DataBase dataBase;
     EditText edt_loguser, edt_logpass;
-    String hoTen = "Nha Giao Tre";
+    String hoTen = "Genesis I";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
